@@ -1,0 +1,9 @@
+{
+	"name": "Powerflow",
+	"version": "0.0.1",
+	"title": "Powerflow",
+	"author": "thatspsychotic",
+	"description": "Calculates power flows on power lines.",
+	"dependencies": ["base >= 0.17.0"],
+	"factorio_version": "0.17"
+}
