@@ -1,7 +1,9 @@
 
 --To Implement--
 
-
+function initialize()
+	
+end
 
 
 
@@ -27,3 +29,4 @@ local remove_events = {e.on_player_mined_entity, e.on_robot_pre_mined, e.on_enti
 local add_events = {e.on_built_entity, e.on_robot_built_entity}
 
 script.on_event(e.on_selected_entity_changed, show_selected_pole_neighbors)
+script.on_init(e.on_init, initialize)
